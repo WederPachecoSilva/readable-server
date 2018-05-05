@@ -1,0 +1,28 @@
+{
+  "name": "readable-server",
+  "version": "1.0.0",
+  "main": "build/server.js",
+  "author": "Weder Pacheco",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "mongoose": "^5.0.17",
+    "morgan": "^1.9.0",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.3",
+    "@types/body-parser": "^1.17.0",
+    "@types/cors": "^2.8.4",
+    "@types/express": "^4.11.1",
+    "@types/mongoose": "^5.0.12",
+    "@types/morgan": "^1.7.35",
+    "@types/passport": "^0.4.5",
+    "@types/passport-jwt": "^3.0.1",
+    "typescript": "^2.8.3"
+  }
+}
